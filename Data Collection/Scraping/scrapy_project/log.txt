@@ -1,0 +1,88 @@
+2022-03-31 14:21:49 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: scrapybot)
+2022-03-31 14:21:49 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.2.0, Python 3.9.12 (tags/v3.9.12:b28265d, Mar 23 2022, 23:52:46) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1n  15 Mar 2022), cryptography 36.0.2, Platform Windows-10-10.0.19043-SP0
+2022-03-31 14:21:49 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'CLOSESPIDER_PAGECOUNT': '1',
+ 'CLOSESPIDER_TIMEOUT': 3600,
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'scrapy_project.spiders',
+ 'SPIDER_MODULES': ['scrapy_project.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
+2022-03-31 14:21:49 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-03-31 14:21:49 [scrapy.extensions.telnet] INFO: Telnet Password: d09cc7be8fd27f8c
+2022-03-31 14:21:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2022-03-31 14:21:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-03-31 14:21:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-03-31 14:21:49 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy_mysql_pipeline.MySQLPipeline']
+2022-03-31 14:21:49 [scrapy.core.engine] INFO: Spider opened
+2022-03-31 14:21:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-03-31 14:21:50 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-03-31 14:21:50 [filelock] DEBUG: Attempting to acquire lock 1223318177104 on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-03-31 14:21:50 [filelock] DEBUG: Lock 1223318177104 acquired on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-03-31 14:21:50 [filelock] DEBUG: Attempting to acquire lock 1223318178688 on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-03-31 14:21:50 [filelock] DEBUG: Lock 1223318178688 acquired on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-03-31 14:21:50 [filelock] DEBUG: Attempting to release lock 1223318178688 on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-03-31 14:21:50 [filelock] DEBUG: Lock 1223318178688 released on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-03-31 14:21:50 [filelock] DEBUG: Attempting to release lock 1223318177104 on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-03-31 14:21:50 [filelock] DEBUG: Lock 1223318177104 released on C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-03-31 14:21:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://receive-sms-free.cc/regions/> (referer: None)
+2022-03-31 14:21:50 [scrapy.core.engine] INFO: Closing spider (closespider_pagecount)
+2022-03-31 14:21:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 308,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 4923,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.908363,
+ 'finish_reason': 'closespider_pagecount',
+ 'finish_time': datetime.datetime(2022, 3, 31, 12, 21, 51, 34496),
+ 'httpcompression/response_bytes': 28334,
+ 'httpcompression/response_count': 1,
+ 'log_count/DEBUG': 10,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 18,
+ 'scheduler/enqueued/memory': 18,
+ 'start_time': datetime.datetime(2022, 3, 31, 12, 21, 50, 126133)}
+2022-03-31 14:21:51 [scrapy.core.engine] INFO: Spider closed (closespider_pagecount)
+2022-03-31 14:21:51 [scrapy.core.engine] INFO: Error while scheduling new request
+Traceback (most recent call last):
+  File "C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\twisted\internet\task.py", line 526, in _oneWorkUnit
+    result = next(self._iterator)
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\twisted\internet\defer.py", line 857, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\leo.za\Google Drive\Uni\Master Thesis\pubsmsinbxs\05_scraping\.venv\lib\site-packages\scrapy\core\engine.py", line 187, in <lambda>
+    d.addBoth(lambda _: self.slot.nextcall.schedule())
+AttributeError: 'NoneType' object has no attribute 'nextcall'

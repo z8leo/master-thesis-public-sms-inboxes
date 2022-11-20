@@ -1,0 +1,31 @@
+0             receive-smss.com       35952      Done
+1          receive-sms-free.cc       43785      Done, Member of cluster 1
+2           smsreceivefree.com       51937      Protected by cloudlfare, Needs captcha solver!
+3                     sms24.me       56657      Done, Member of cluster 1
+37  temporary-phone-number.com       59572      Rotating proxy needed. After 100 requets from same ip, random messages are returned
+4                receivesms.co       62437      Done, Cluster 1
+5           freereceivesms.com       63741      Cluster 1, protected by cloudflare
+6               receive-sms.cc       67428      Protected by cloudflare, selenium needed
+43                onlinesim.ru       72102      SPA
+7      receive-sms-online.info       79431      Selenium needed
+8                mytempsms.com       81847      Inbox numbers as jpg, needs . Bot detection likely?
+41                    7sim.net       89636      Done
+40            freephonenum.com       90598      Very short message retention, 10-20min. Scrape more often needed
+35            freephonenum.com       90598      Duplicate
+42                   quackr.io      112519      Cloudflare captcha
+9                    zusms.com      136635      Mostly chinese
+36                  pingme.tel      142875      Captcha
+69              yunduanxin.net      143613      Mostly chinese
+10                   z-sms.com      148567      Mostly chinese
+11              online-sms.org      153654      Done, Similar to 7sim.net but different numbers
+
+
+
+Cluster tSMS:
+temp-sms.net            # Abandoned
+receivesms.live         # Done
+receivesmsfast.com      # Done
+receivesms365.com       # Done
+virtualwebphone.com     # Abandoned
+receivefreesms.info     # Little activity
+tesms.net               # Done
